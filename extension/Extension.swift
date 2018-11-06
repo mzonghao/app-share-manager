@@ -7,3 +7,11 @@ extension UIView {
         return snapshotImage ?? UIImage()
     }
 }
+
+public func getScreenWidth() -> CGFloat {
+    return UIScreen.main.bounds.size.width
+}
+
+public func ratio(_ width: CGFloat) -> CGFloat {
+    return width * getScreenWidth() / 750
+}
