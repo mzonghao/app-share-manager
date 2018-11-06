@@ -49,6 +49,7 @@ class ShareManager {
 
     func generateShareImage() -> UIImage {
         let shareImageView: ShareImageView = ShareImageView()
+        // 可以在这里将 shareInfo 内容传递至 shareImageView
         return shareImageView.transformToImage()
     }
 
