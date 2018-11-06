@@ -6,8 +6,6 @@ class ShareViewController: UIController {
     var shareItems: [ShareItemModel] = []
     var shareImage: UIImage = UIImage()
 
-    var shareTitle: String = ""
-
     let shareCellId: String = "shareViewCell"
 
     let contentView: UIView = UIView()
