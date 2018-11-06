@@ -1,6 +1,5 @@
-// R: 引入 pod 'R.swift', '4.0.0'
-
 import Foundation
+// R: 引入 pod 'R.swift'
 
 class ShareItemModel {
 
