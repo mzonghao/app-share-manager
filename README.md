@@ -1,4 +1,4 @@
-# app-share-mamnager
+# app-share-manager
 iOS 图片分享弹窗 example
 
 ## 目录
